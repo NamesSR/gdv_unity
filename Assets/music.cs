@@ -70,7 +70,7 @@ public class music : MonoBehaviour
     }
     void stopsong()
     {
-        
+         
         if (Input.GetKeyDown(KeyCode.P))
         {
             isSongPlaying = true;
@@ -81,6 +81,7 @@ public class music : MonoBehaviour
             isSongPlaying = false;
             Debug.Log("Song stoped.");
         }
+        
     }
 }
 
