@@ -4,6 +4,7 @@ public class colider : MonoBehaviour
 {
     public int pointValue = 10;
     public string itemName = "Coin";
+    public int totaalpoints = 0;
 
     void Start()
     {
@@ -33,7 +34,9 @@ public class colider : MonoBehaviour
     {
         Debug.Log("Player picked up: " + itemName);
         Debug.Log("Points gained: " + points);
-        
+        totaalpoints = totaalpoints + points;
+        Debug.Log("totaal points: " + totaalpoints);
+
 
         // Hier zou je later het scorebord kunnen bijwerken
 

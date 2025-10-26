@@ -9,14 +9,14 @@ public class healthstatus : MonoBehaviour
     void Start()
 
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         
-        if (health > 80)
+            if (health > 80)
         {
             Debug.Log("Excellent health!");
         }
@@ -32,16 +32,16 @@ public class healthstatus : MonoBehaviour
         {
             Debug.Log("Critical: Very low health!");
         }
-        if (Input.GetKeyDown(KeyCode.H)&& health > 0)
-            
-            
-                {
-                    Debug.Log("you have taken damage");
-                    health = health - 10;
+        if (Input.GetKeyDown(KeyCode.H) && health > 0)
 
-                }
-            
-        if (Input.GetKeyDown(KeyCode.J)&& health < maxHealt)
+
+        {
+            Debug.Log("you have taken damage");
+            health = health - 10;
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.J) && health < maxHealt)
         {
             Debug.Log("you are healing your self");
             health = health + 10;
@@ -50,7 +50,8 @@ public class healthstatus : MonoBehaviour
         if (health == 0)
         {
             Debug.Log("game over");
-            
+
         }
+        
     }
 }
