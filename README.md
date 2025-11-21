@@ -60,3 +60,10 @@
 # 1.2A
 ## ![gif](gifs/sijdshjdhj.gif)
 ### [code](Assets/random2.cs)
+
+# 1.2B
+## ![gif](gifs/list.gif)
+### [movement code](Assets/playermovent.cs)
+### [camarra rotation code](Assets?muisrotation2.cs)
+### [list code](assets/itvetory.cs)
+### [pickup code](assets/inventoripickup.cs)
