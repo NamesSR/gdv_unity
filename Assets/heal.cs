@@ -11,6 +11,7 @@ public class heal : MonoBehaviour
         GetComponent<Collider>().isTrigger = true; // Les 4.1: trigger maken
     }
 
+
     void OnTriggerEnter(Collider other) // Les 4.2: collision detection
     {
         if (other.CompareTag("Player")) // Les 4.1: tag checking
