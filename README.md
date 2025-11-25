@@ -64,6 +64,6 @@
 # 1.2B
 ## ![gif](gifs/list.gif)
 ### [movement code](Assets/playermovent.cs)
-### [camarra rotation code](Assets?muisrotation2.cs)
+### [camarra rotation code](Assets/muisrotation2.cs)
 ### [list code](Assets/itvetory.cs)
 ### [pickup code](Assets/inventoripickup.cs)
